@@ -14,7 +14,7 @@ body {
 #header {
   width: 100%;
   height: 10%;
-  background-color: #5c32aa;
+  background-color: #27718f;
 }
 
  #header:hover {
@@ -22,55 +22,28 @@ body {
 }
 
 #topmenu {
-  text-align: center;
   width: 100%;
   height: 50%;
-  font-size: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #5ab9ea;
-  text-shadow: 2px 2px #000;
 }
 /* MIDDLE HEADER*/
 
 #middle {
   width: 100%;
-  height: 80%;
-  background-image: url("https://www.kremer.nl/wp-content/uploads/2020/03/machine-learning-afbeelding-1-400x247.jpg");
+  height: 90%;
+  z-index: 1;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 3px 3px black;
+  font-size: 250%;
 }
-#leftmenu {
- /* background-color:#2f2fa2; */
-  height: 100%;
-  width: 15%;
-  float: left;
-  color: #ffffff;
+h1 {
+  margin-top: 18%;
 }
-#middlemenu {
-  background-color:#5ab9ea;
-  height: 100%;
-  width: 70%;
-  float: left;
-}
-#rightmenu {
-  /* background-color: #2f2fa2; */
-  height: 100%;
-  width: 15%;
-  float: left;
-  color:#ffffff;
-}
-
-/* BOTTOM HEADER */
-#bottom {
-  width: 100%;
-  height: 10%;
-}
-#bottommenu {
-  border: 1px solid;
-  background-color: #5c32aa;
-  height: 100%;
-  width: 100%;
-}
-#bottommenu:hover {
-  background-color:#645aec;
-  color:#5ab9ea;
-  text-shadow: 1px 1px #000;
+#backgroundvideo {
+  position: fixed;
+  right: 0;
+  top: 10%;
+  min-width: 100%;
+  min-height: 90%;
+  z-index: -2;
 }
